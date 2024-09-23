@@ -1,3 +1,20 @@
 @import './common';
-@import "./components/hills";
-@import "./components/numbers";
+
+@import './utils/media';
+@import './utils/vars';
+@import './utils/fonts';
+@import "./utils/normalize";
+@import "./utils/container";
+@import "./utils/base";
+@import './utils/visual-hidden';
+
+@import './components/header';
+@import './components/hero';
+@import './components/facts';
+@import './components/explore';
+@import './components/numbers';
+@import './components/hills';
+@import './components/videos';
+@import './components/gallery';
+@import './components/plans';
+@import './components/footer';
