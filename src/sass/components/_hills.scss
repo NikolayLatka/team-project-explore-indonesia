@@ -1,0 +1,45 @@
+.hills-valleys-section {
+    position: relative;
+    text-align: center;
+    padding: 248px 20px;
+    background-color: #bbbbbb;
+    
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.hills-valleys-section .content {
+    max-width: 614px;
+    margin: 0 auto;
+}
+
+.hills-valleys-section .hills-title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hills-valleys-section .hills-text {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.hills-valleys-section .btn {
+    display: inline-block;
+    width: 210px;
+    height: 64px;
+    padding: 16px 24px;
+    background-color: rgb(221, 34, 66);
+    color: #fff;
+    font-size: 1em;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px; 
+    transition: background-color 0.3s ease;
+}
+
+.hills-valleys-section .btn:hover {
+    background-color: #e62e2e;
+}
