@@ -1,0 +1,63 @@
+.videos__heading {
+display: inline-block;
+// color: rgb(255, 255, 255);
+// font-family: DM Sans;
+font-size: 42px;
+font-weight: 700;
+line-height: calc(50/42);
+letter-spacing: 0px;
+text-align: center;
+
+margin-top: 141px;
+}
+.videos__video {
+    margin-top: 67px;
+   width:  1056px;
+   height: 594px;
+
+}
+.videos-list {
+    margin-top: 125px;
+    display: flex;
+    gap: 75px ;
+    
+}
+.videos-list__item {
+    display: flex;
+ 
+}
+.videos-list__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 15px;
+
+
+}
+.videos-list__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: calc(28/18);
+}
+.videos-list__item-img {
+    width: 234px;
+    height: 151px;
+}
+.videos {
+    width: 1920px;
+    height: 1476px;
+    background-image: url(../img/palm-path-background.png);
+    background-color: rgb(1, 10, 32);
+    // background-size: 1921px ;
+}
+.videos--container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.videos-list__item--text {
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+    margin-left: 41px;
+}
