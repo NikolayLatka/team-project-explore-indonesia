@@ -1,0 +1,49 @@
+body {
+    position: relative;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.header {
+    position: absolute;
+    left: 70px;
+    top: 28px;
+    
+}
+
+.header__nav__link {
+    color: white;
+}
+
+.header__nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 62.1px;
+}
+
+.header__logo {
+    width: 185.1px;
+    height: 68.75px;
+}
+
+.header__logo {
+    margin-right: 64.03px;
+}
+
+.header__icons__list {
+    fill: white;
+    display: flex;
+    justify-content: end;
+    margin-left: 845.44px;
+    gap: 40.03px;
+}

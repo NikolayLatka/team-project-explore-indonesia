@@ -1,0 +1,157 @@
+.hero {
+    width: 1921px;
+    height: 1080px;
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.29) ),url('../../img/header-hero.jpg');
+}
+
+.hero__btn {
+    margin-top: 21px;
+    width: 271.14px;
+    height: 82px;
+    color: white;
+    background-color: rgb(221, 34, 66);
+    border-radius: 211px;
+    font-size: 20px;
+        font-weight: 700;
+        line-height: 150%;
+}
+
+
+.hero__title {
+    width: 627.33px;
+    font-size: 120px;
+        font-weight: 900;
+        line-height: 130px;
+        letter-spacing: 0%;
+        color: white;
+        padding-top: 266px;
+}
+
+.title-holder {
+    padding-left: 277.14px;
+}
+
+
+
+
+.gray-fill {
+    bottom: 942px;
+    left: 290px;
+    position: absolute;
+    width: 1225.64px;
+        height: 210px;
+    background-color: rgba(0 , 0 , 0, 0.6);
+}
+
+.gray__number {
+    color: rgb(221, 34, 66);
+    font-size: 16px;
+        font-weight: 900;
+        line-height: 19px;
+}
+
+.gray__title {
+    padding-top: 14px;
+    color: white;
+    font-size: 26.41px;
+        font-weight: 700;
+        line-height: 41.08px;
+}
+
+.gray__text {
+    font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: rgb(147, 147, 147);
+        width: 210.11px;
+}
+
+
+.gray__list {
+    display: flex;
+    align-items: center;
+    gap: 198.01px;
+    padding-top: 41px;
+    
+}
+
+.gray__list:first-child {
+    margin-left: 71.04px;
+}
+
+
+.sidebar__number {
+    position: absolute;
+    left:  -17px;
+    top: 400px;
+    color: white;
+    transform: rotate(-90.00deg);
+    padding-right: 20px;
+    font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+}
+
+.sidebar__red {
+    background-color: rgb(221, 34, 66);
+    width: 4px;
+    height: 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+}
+
+.sidebar__white {
+    width: 2px;
+    height: 296px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+    position: absolute;
+    left: 1px;
+    
+}
+
+.sidebar-holder {
+    position: absolute;
+    top: 250px;
+}
+
+
+.sidebar-media {
+    color: white;
+    display: flex;
+    gap: 31px;
+    font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        transform: rotate(-90.00deg);
+        position: absolute;
+        top: 970px;
+        left: 55px;
+}
+
+
+.hero__img {
+    position: absolute;
+    bottom: 942px;
+    right: 0;
+}
+
+.play__btn {
+    position: absolute;
+    right: 115px;
+    top: 865px;
+    fill: white;
+}
+
+
+.arrow__btn {
+    position: absolute;
+    right: 185px;
+    top: 936px;
+    width: 50px;
+    height: 50px;
+        
+}
+
+
