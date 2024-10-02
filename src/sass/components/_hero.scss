@@ -18,6 +18,10 @@
 }
 
 
+.hero-flex {
+    padding-right: 0;
+}
+
 .hero__title {
     width: 627.33px;
     font-size: 120px;
@@ -33,12 +37,18 @@
 }
 
 
-
-
-.gray-fill {
-    bottom: 942px;
+.gray-holder {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-top: 200px;
+bottom: 942px;
     left: 290px;
     position: absolute;
+}
+
+.gray-fill {
+    
     width: 1225.64px;
         height: 210px;
     background-color: rgba(0 , 0 , 0, 0.6);
@@ -131,11 +141,11 @@
 }
 
 
-.hero__img {
-    position: absolute;
-    bottom: 942px;
-    right: 0;
-}
+// .hero__img {
+//     // position: absolute;
+//     // bottom: 942px;
+//     // right: 0;
+// }
 
 .play__btn {
     position: absolute;
@@ -153,5 +163,7 @@
     height: 50px;
         
 }
+
+
 
 
