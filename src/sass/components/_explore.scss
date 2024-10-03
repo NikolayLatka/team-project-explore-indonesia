@@ -1,0 +1,58 @@
+.secrets {
+    height: 1414px;
+    background-image: url(../../img/mountain-background.jpg);
+}
+
+.explore__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+        
+        
+}
+
+.explore__title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 127px;
+    padding-bottom: 44.83px;
+        font-weight: 700;
+        line-height: 150%;
+        
+}
+
+
+.arrow-holder {
+    padding-left: 63.32px;
+    padding-right: 63.32px;
+}
+
+.arrow-left {
+    width: 14.68px;
+    height: 23.91px;
+    fill: #000000;
+}
+
+
+.scroll-holder {
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.scroll__point {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: rgb(133, 163, 178);
+}
+
+.scroll__point--red {
+    width: 50px;
+    height: 19px;
+    border-radius: 60px;
+        background-color: rgb(221, 34, 66);
+}
