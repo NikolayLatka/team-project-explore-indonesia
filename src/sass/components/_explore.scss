@@ -1,6 +1,7 @@
 .secrets {
-    height: 1414px;
+    height: 2207px;
     background-image: url(../../img/mountain-background.jpg);
+    
 }
 
 .explore__list {
@@ -56,3 +57,61 @@
     border-radius: 60px;
         background-color: rgb(221, 34, 66);
 }
+
+
+
+.by-the-numbers {
+    transform: translateX(-110px);
+    margin-top: 860px;
+    height: 794px;
+    width: 1921px;
+    text-align: center;
+    padding-top: 201px;
+    padding-bottom: 100px;
+    background: rgb(2, 12, 33);
+        opacity: 0.9;
+    font-family: ' Arial ', sans-serif;
+
+    color: #fff;
+}
+
+.by-the-numbers .title {
+    font-size: 2.5em;
+}
+
+.title {
+    margin-bottom: 37px;
+}
+
+.description {
+    font-size: 1.2em;
+    max-width: 480px;
+    margin: 0 auto 39px;
+    color: #ccc;
+}
+
+.numbers {
+    display: flex;
+    padding-left: 127px;
+    padding-right: 127px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.number-item {
+    flex: 1;
+    max-width: 340px;
+    margin: 20px;
+}
+
+.number {
+    font-size: 3em;
+    color: #ff3b3b;
+    margin-bottom: 10px;
+}
+
+.number-item .number-text {
+    font-size: 1em;
+    color: #aaa;
+}
+
