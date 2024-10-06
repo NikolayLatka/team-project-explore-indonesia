@@ -1,4 +1,6 @@
 .hero {
+    margin: 0 auto;
+    position: relative;
     width: 1921px;
     height: 1080px;
     background-image: linear-gradient(to right,
@@ -38,13 +40,13 @@
 
 
 .gray-holder {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    padding-top: 200px;
 // bottom: 942px;
-    left: 290px;
-    position: absolute;
 }
 
 .gray-fill {
