@@ -17,12 +17,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    // background: linear-gradient(
+    //   180deg,
+    //   rgb(1, 10, 32),
+    //   rgba(1, 10, 32, 0) 100%
+    // );
 
-    // width: 1921px;
-    // width: 100%;
+    width: 1921px;
     height: 812px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 130px;
 
@@ -42,9 +47,41 @@
 
   &__title {
     width: 480px;
+    color: $white;
     font-family: 'DM Sans';
     font-size: 42px;
     font-weight: 700;
     line-height: calc(50 / 42);
+
+    margin-bottom: 4px;
+  }
+
+  &__subtitle {
+    width: 407px;
+    color: rgb(224, 224, 224);
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: calc(28 / 18);
+    margin-bottom: 32px;
+  }
+
+  &__btn {
+    width: 180px;
+    height: 59px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 32px;
+    background: rgb(221, 34, 66);
+
+    // font
+    color: rgb(255, 255, 255);
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
   }
 }
