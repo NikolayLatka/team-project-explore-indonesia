@@ -1,0 +1,44 @@
+.gallery_text {
+  text-align: center;
+
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 60px;
+  padding-top: 177px;
+
+  color: $dark-blue;
+}
+.gallery_second_text {
+  margin-left: 630px;
+  margin-top: 41.83px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+
+  width: 511px;
+
+  color: $second-grey;
+}
+.gallery_list {
+  display: flex;
+
+  gap: 30px;
+  flex-wrap: wrap;
+
+  width: 1170px;
+  height: 770px;
+
+  margin-left: 300px;
+  margin-top: 71px;
+  margin-bottom: 229px;
+}
+// .gallery_list_item:nth-child(5) {
+//   align-self: flex-start;
+// }
+// .gallery_list_item:nth-child(2) {
+//   height: 210px;
+// }
+.gallery_img {
+  width: 350px;
+  height: 350px;
+}
