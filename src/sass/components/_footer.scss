@@ -1,8 +1,47 @@
-.info-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer {
+  background-color: rgb(1, 10, 32);
+  height: 136px;
 }
-.info-text:not(:last-child) {
-margin-top: 30px;
+.logo-footer {
+  display: flex;
+  padding-right: 116px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-item {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about {
+  margin-right: 36px;
+  color: rgb(255, 255, 255);
+}
+.pricing {
+  margin-right: 38px;
+  color: rgb(255, 255, 255);
+}
+.company {
+  margin-right: 35px;
+  color: rgb(255, 255, 255);
+}
+.blog {
+  margin-right: 728px;
+  color: rgb(255, 255, 255);
+}
+.social-network-item {
+  margin-right: 34px;
+}
+.Copyright {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 18px;
 }
