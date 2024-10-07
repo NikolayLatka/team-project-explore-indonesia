@@ -1,89 +1,44 @@
-.footer-logo {
-  display: flex;
-}
 footer {
   background-color: rgb(1, 10, 32);
   height: 136px;
 }
-.logo {
-  margin-top: 48px;
-  padding-right: 7.75px;
+.logo-footer {
+  display: flex;
+  padding-right: 116px;
 }
-.explore {
-  font-weight: 900;
-  font-size: 23.960590362548828px;
-  color: rgb(221, 34, 66);
-  margin-top: 48px;
-}
-.indonesia {
-  font-weight: 900;
-  font-size: 23.960590362548828px;
-  color: rgb(255, 255, 255);
-}
-.explore-indonesia {
-  padding-right: 124px;
-}
-.social {
+.footer-flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about {
-  width: 56px;
-  height: 28px;
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-item {
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 700;
-  margin-top: 48px;
-  color: rgb(255, 255, 255);
+}
+.about {
   margin-right: 36px;
 }
 .pricing {
-  width: 63px;
-  height: 28px;
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: 48px;
-  color: rgb(255, 255, 255);
   margin-right: 38px;
 }
 .company {
-  width: 88px;
-  height: 28px;
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: 48px;
-  color: rgb(255, 255, 255);
   margin-right: 35px;
 }
 .blog {
-  width: 39px;
-  height: 28px;
+  margin-right: 728px;
+}
+.social-network-item {
+  margin-right: 34px;
+}
+.Copyright {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
   font-size: 18px;
-  font-weight: 700;
-  margin-top: 48px;
-  color: rgb(255, 255, 255);
-  padding-right: 720px;
-}
-.social-network {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 48px;
-}
-.facebook {
-  margin-right: 40px;
-}
-.in {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  color: rgb(255, 255, 255);
-  margin-right: 27px;
-  font-weight: 700;
-}
-.google {
-  padding-right: 55px;
-}
-.copyright {
-  margin-top: 65px;
 }
