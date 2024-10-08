@@ -7,11 +7,24 @@
 
 .explore__list {
         display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 31px;
+        
+        
+}
+
+.arrow-wrapper {
+    display: flex;
         justify-content: center;
         align-items: center;
         gap: 31px;
-        
-        
+    
+
+}
+
+.explore-container {
+    outline: none;
 }
 
 .explore__title {
@@ -25,17 +38,22 @@
 }
 
 
-.arrow-holder {
-    padding-left: 63.32px;
-    padding-right: 63.32px;
-}
+
 
 .arrow-left {
+    margin-right: 64px;
     width: 14.68px;
     height: 23.91px;
     fill: #000000;
 }
 
+
+.arrow-right {
+    margin-left: 64px;
+    width: 14.68px;
+    height: 23.91px;
+    fill: #000000;
+}
 
 .scroll-holder {
     padding-top: 28px;

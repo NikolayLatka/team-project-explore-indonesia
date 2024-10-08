@@ -21,6 +21,7 @@
 
 
 .hero-flex {
+    outline: none;
     padding-right: 0;
 }
 
@@ -94,6 +95,7 @@
 }
 
 
+
 .sidebar__number {
     position: absolute;
     left:  -17px;
@@ -126,6 +128,7 @@
 .sidebar-holder {
     position: absolute;
     top: 250px;
+    transform: translateX(-30px);
 }
 
 
@@ -139,15 +142,10 @@
         transform: rotate(-90.00deg);
         position: absolute;
         top: 970px;
-        left: 55px;
+        left: 25px;
 }
 
 
-// .hero__img {
-//     // position: absolute;
-//     // bottom: 942px;
-//     // right: 0;
-// }
 
 .play__btn {
     position: absolute;
