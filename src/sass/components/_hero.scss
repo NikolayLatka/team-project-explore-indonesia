@@ -17,7 +17,22 @@
     font-size: 20px;
         font-weight: 700;
         line-height: 150%;
+        animation: hero__pulse-btn 1500ms infinite;
+
+        @keyframes hero__pulse-btn {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
 }
+
+
 
 
 .hero-flex {
@@ -147,12 +162,6 @@
 
 
 
-.play__btn {
-    position: absolute;
-    right: 115px;
-    top: 865px;
-    fill: white;
-}
 
 
 .arrow__btn {
