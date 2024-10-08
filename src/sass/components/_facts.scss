@@ -84,5 +84,11 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 150%;
+
+    &:is(:hover, :focus) {
+      background-color: #800000;
+      color: rgb(235, 235, 235);
+      transition: all 500ms;
+    }
   }
 }
