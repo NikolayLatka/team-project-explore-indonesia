@@ -1,0 +1,43 @@
+.gallery__text {
+  text-align: center;
+
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 60px;
+  padding-top: 177px;
+
+  color: $dark-blue;
+}
+
+.gallery__text:is(:hover, :focus) {
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.gallery__second__text {
+  margin-left: 630px;
+  margin-top: 41.83px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+
+  width: 511px;
+
+  color: $second-grey;
+}
+.gallery__list {
+  display: flex;
+
+  gap: 30px;
+  flex-wrap: wrap;
+
+  width: 1170px;
+  height: 770px;
+
+  margin-left: 300px;
+  margin-top: 71px;
+  margin-bottom: 229px;
+}
+.gallery__img {
+  width: 350px;
+  height: 350px;
+}
